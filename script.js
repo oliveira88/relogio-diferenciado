@@ -1,15 +1,6 @@
 function check(value) {
   return value > 9 ? value : `0${value}`;
 }
-// const container = document.querySelector('.relogio');
-// const card = document.querySelector('.content');
-// container.addEventListener('mousemove', e => {
-//   let xAxis = (window.innerWidth / 2 - e.pageX) / 25;
-//   let yAxis = (window.innerHeight / 2 - e.pageY) / 25;
-//   card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
-// });
-
-// const estante = new Date(2021, 03, 07, 23, 58);
 
 function start() {
   const estante = new Date();
